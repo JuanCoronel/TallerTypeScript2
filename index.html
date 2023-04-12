@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        .thead {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid black;
+        }
+        .table1 {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100px;
+        height: 20px;
+        font-size: 12px;
+        }
+        td {
+            color: rgb(39, 38, 37);
+        padding: 5px;
+        text-align: center;
+        border: 1px solid rgb(190, 187, 187);
+        background-color: rgb(250, 250, 250);
+        }
+        .negrilla {
+            color: black;
+        }
+        .enlace {
+            color: blue;
+            cursor: pointer;
+        }
+        .enlace:hover {
+            background-color: #f5f5f5;
+        }
+        .titulo {
+            background-color: rgb(36, 161, 199);
+            }
+        th{
+            padding: 5px;
+            text-align: center;
+            border: 1px solid rgb(190, 187, 187);
+        }
+        .imagen{
+            width: 150px;
+            height: 60px;
+        }
+        .centrado{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+
+
+</head>
+<body>
+<div class="container">
+    
+    <div class="row titulo"> 
+        <div class="column">
+            <img src="./2386e240769649.578d1b8c36fc0.png" alt="TV shows" class="imagen">
+        </div>
+
+        <div class="text-center d-flex justify-content-center">
+            <h2 class="centrado">TV series</h2>
+        </div>
+
+    </div>
+
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table table-hover">
+                    <caption> <p id="promedio-temporadas"></p> </caption>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Channel</th>
+                            <th>Seasons</th>
+                        </tr>
+                    </thead>
+                    <tbody id="Series">
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                 <div class="card card1 d-none">
+                    <img class="card-img-top" src="./1366_2000.jpg" alt="Descripción de la imagen">
+                    <div class="card-body">
+                      <h5 class="card-title">Breaking Bad</h5>
+                      <p class="card-text">Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer.</p>
+                      <a href="https://www.amc.com/shows/breaking-bad">https://www.amc.com/shows/breaking-bad</a>
+                    </div>
+                  </div>
+                  
+                  <div class="card card2 d-none">
+                    <img class="card-img-top" src="./rs_634x939-180709061638-634-oitnb-s6.ch.070918.jpg" alt="Descripción de la imagen">
+                    <div class="card-body">
+                      <h5 class="card-title">Orange Is the New Black</h5>
+                      <p class="card-text">The series begins revolving around Piper Chapman, a woman in her thirties living in New York City who is sentenced to 15 months in Litchfield Penitentiary.</p>
+                      <a href="https://www.netflix.com/co/title/70242311">https://www.netflix.com/co/title/70242311</a>
+                    </div>
+                  </div>
+
+                  <div class="card card3 d-none">
+                    <img class="card-img-top" src="./MV5BYTRiNDQwYzAtMzVlZS00NTI5LWJjYjUtMzkwNTUzMWMxZTllXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_.jpg" alt="Descripción de la imagen">
+                    <div class="card-body">
+                      <h5 class="card-title">Game of Thrones</h5>
+                      <p class="card-text">American fantasy drama.</p>
+                      <a href="https://www.hbo.com/game-of-thrones">https://www.hbo.com/game-of-thrones</a>
+                    </div>
+                  </div>
+
+                  <div class="card card4 d-none">
+                    <img class="card-img-top" src="./27dad4f1f79ea44b96fc726ddef21d04294c1b1654e06d6126c256f4db76054c._RI_V_TTW_.jpg" alt="Descripción de la imagen">
+                    <div class="card-body">
+                      <h5 class="card-title">The Big Bang Theory</h5>
+                      <p class="card-text">Leonard and Sheldon are brilliant physicists—geniuses in the laboratory but socially challenged everywhere else. Enter beautiful, street-smart neighbor Penny, who aims to teach them a thing or two about life. Despite their on-again, off-again relationship in the past, Leonard and Penny have finally gotten married. Even Sheldon has found a female companion, entering into a relationship agreement with neurobiologist Amy Farrah Fowler, and he recently took their relationship to the next level by marrying her after a long courtship. In their free time, Leonard and Sheldon enjoy fantasy role-playing games with their ever-expanding universe of friends, including fellow scientists Koothrappali, Wolowitz, and Wolowitz’s adorable microbiologist wife, Bernadette, who is adjusting to life with their two children.</p>
+                      <a href="https://www.cbs.com/shows/big_bang_theory/about/">https://www.cbs.com/shows/big_bang_theory/about/</a>
+                    </div>
+                  </div>
+
+                  <div class="card card5 d-none">
+                    <img class="card-img-top" src="./Sherlock_Serie_de_TV-635342236-large.jpg" alt="Descripción de la imagen">
+                    <div class="card-body">
+                      <h5 class="card-title">Sherlock</h5>
+                      <p class="card-text">Sherlock depicts consulting detective Sherlock Holmes (Benedict Cumberbatch) solving various mysteries in modern-day London. Holmes is assisted by his flatmate and friend, Dr John Watson (Martin Freeman), who has returned from military service in Afghanistan with the Royal Army Medical Corps.</p>
+                      <a href="https://www.bbc.co.uk/programmes/b018ttws">https://www.bbc.co.uk/programmes/b018ttws</a>
+                    </div>
+                  </div>
+
+                  <div class="card card6 d-none">
+                    <img class="card-img-top" src="./MV5BNTQ5NDI0MTQ0MV5BMl5BanBnXkFtZTgwNDEzNTc1NTM@._V1_.jpg" alt="Descripción de la imagen">
+                    <div class="card-body">
+                      <h5 class="card-title">A Very English Scandal</h5>
+                      <p class="card-text">A Very English Scandal is a fact-based three-part British television comedy-drama miniseries based on John Preston's book of the same name.</p>
+                      <a href="https://www.bbc.co.uk/programmes/p065smy4">https://www.bbc.co.uk/programmes/p065smy4</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+        
+    <script type="module" src="./scripts/Serie.js" ></script>
+    <script type="module" src="./scripts/dataSeries.js" ></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
